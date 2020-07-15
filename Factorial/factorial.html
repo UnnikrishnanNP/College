@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js</title>
+</head>
+	<body>
+		<h2>Factorial Of A Number</h2>
+		<button onclick="myFunction()">Click Me</button>
+		<script>
+			function myFunction() {
+				var n;
+				n = prompt("Enter a number");
+				if(n == null || n == ""){
+					alert("Enter A Number!");
+				}
+				else{
+					var input = n;
+					for(var i=1;i< n;i++){
+						input = i*input;
+					}
+					alert("The factorial of " + n + " is " + input);
+				}
+			}
+		</script>
+	</body>
+</html>
