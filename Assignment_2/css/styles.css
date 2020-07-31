@@ -1,0 +1,21 @@
+* {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  align-items: center;
+}
+h1 {
+  color: #003c70;
+}
+.main {
+  border: 4px solid black;
+  text-align: center;
+  background-color: wheat;
+}
+button {
+  background-color: #0085fa9b;
+}
+button:hover {
+  background-color: black;
+  color: #f1c36ec2;
+}
