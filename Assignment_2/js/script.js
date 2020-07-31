@@ -5,7 +5,7 @@ $(document).ready(function () {
       case "1":
         var radius = $("#userInput").val();
         if (!$.isNumeric($("input:text").val())) {
-          alert("Enter A NUmber!");
+          alert("Enter A Number!");
           return false;
         }
         var area = 3.14 * radius * radius;
@@ -18,7 +18,7 @@ $(document).ready(function () {
       case "2":
         var length = $("#userInput").val();
         if (!$.isNumeric($("input:text").val())) {
-          alert("Enter A NUmber!");
+          alert("Enter A Number!");
           return false;
         }
 
