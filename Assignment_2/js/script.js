@@ -4,6 +4,10 @@ $(document).ready(function () {
     switch (optionSelected) {
       case "1":
         var radius = $("#userInput").val();
+        if (!$.isNumeric($("input:text").val())) {
+          alert("Enter A NUmber!");
+          return false;
+        }
         var area = 3.14 * radius * radius;
         var perimeter = 2 * 3.14 * radius;
 
@@ -13,6 +17,10 @@ $(document).ready(function () {
         break;
       case "2":
         var length = $("#userInput").val();
+        if (!$.isNumeric($("input:text").val())) {
+          alert("Enter A NUmber!");
+          return false;
+        }
 
         var area = length * length;
         var perimeter = 4 * length;
@@ -23,6 +31,10 @@ $(document).ready(function () {
         break;
       case "3":
         var num = $("#userInput").val();
+        if (!$.isNumeric($("input:text").val())) {
+          alert("Enter A NUmber!");
+          return false;
+        }
         $("#text1").html("Prime Numbers Upto " + num + " is  : ");
         for (i = 2; i <= num; i++) {
           var c = 0;
