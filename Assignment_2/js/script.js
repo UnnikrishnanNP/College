@@ -32,7 +32,7 @@ $(document).ready(function () {
       case "3":
         var num = $("#userInput").val();
         if (!$.isNumeric($("input:text").val())) {
-          alert("Enter A NUmber!");
+          alert("Enter A Number!");
           return false;
         }
         $("#text1").html("Prime Numbers Upto " + num + " is  : ");
